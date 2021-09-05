@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+       >
+
+        <TextView
+            android:id="@+id/btnaddmeet"
+            android:layout_width="321dp"
+            android:layout_height="86dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="60dp"
+
+            android:background="@drawable/meetbg"
+            android:paddingLeft="75dp"
+            android:text="                                             Plane a Meet"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.12">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnchat"
+            android:layout_width="321dp"
+            android:layout_height="86dp"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/chatbg"
+            android:paddingLeft="30dp"
+            android:text="Chat,                                             Interact with other                  users.                              "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.611"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.317">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnmailbox"
+            android:layout_width="321dp"
+            android:layout_height="86dp"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/mailbg"
+            android:paddingLeft="75dp"
+            android:text="                                       MailBox"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.731">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnhistory"
+            android:layout_width="321dp"
+            android:layout_height="86dp"
+            android:layout_marginBottom="20dp"
+
+
+
+            android:background="@drawable/hisbg"
+            android:paddingLeft="75dp"
+            android:text="                                       History"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53">
+
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/btnlogout"
+            android:layout_width="321dp"
+            android:layout_height="86dp"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/logbg"
+            android:paddingLeft="75dp"
+            android:text="                                        Logout"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.613"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.929">
+
+
+        </TextView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
